@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "847406887039",
+    "firebase_url": "https://journalapp-perfect.firebaseio.com",
+    "project_id": "journalapp-perfect",
+    "storage_bucket": "journalapp-perfect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847406887039:android:7e047c92c18fcc1a",
+        "android_client_info": {
+          "package_name": "com.example.interactive_bee.journalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847406887039-9nnknju3k40sggbij2o8jjjvg5djq4i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFfN17FkEocw8mRdI4SFCYyPX1kk2fltY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
