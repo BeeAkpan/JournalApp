@@ -5,19 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".JournalActivity"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
     android:background="@drawable/background">
 
 
-
-    <!--<TextView-->
-    <!--android:id="@+id/emailTextView"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:textSize="20sp"-->
-    <!--android:fontFamily="cursive"-->
-    <!--/>-->
-
-    <!-- Floating action button that launches AddTaskActivity when clicked -->
 
 
     <android.support.v7.widget.RecyclerView

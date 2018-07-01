@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    tools:context=".EntryActivity"
+    android:background="@drawable/background">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        >
+
+        <EditText
+            android:id="@+id/edt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="enter title here"
+            android:cursorVisible="true"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_title"
+            android:layout_marginTop="50dp"
+            android:hint="enter Note here"
+            android:cursorVisible="true"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <ImageButton
+            android:id="@+id/btn_Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/edt_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:onClick="saveToDatabaseButton"
+            android:src="@drawable/save"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
